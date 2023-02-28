@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	go h.run()
+	go H.Run()
 
 	router := gin.New()
 	router.LoadHTMLFiles("index.html")
